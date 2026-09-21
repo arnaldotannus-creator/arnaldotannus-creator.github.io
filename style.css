@@ -14,5 +14,5 @@
 .sales-copy{align-self:center}
 @media(max-width:800px){.sales-case{grid-template-columns:1fr}.sales-image{max-width:none;justify-self:stretch}.sales-image img{aspect-ratio:2/3}}
 
-.sales-gallery{display:grid;grid-template-columns:.82fr 1.18fr;gap:12px;align-items:end;justify-self:end;max-width:760px}.sales-gallery img{width:100%;display:block;object-fit:cover;background:#ddd;transition:transform .7s ease}.sales-event{aspect-ratio:2/3}.sales-presentation{aspect-ratio:3/4}.sales-gallery img:hover{transform:scale(1.018)}
-@media(max-width:800px){.sales-gallery{grid-template-columns:.82fr 1.18fr;gap:8px;max-width:none;justify-self:stretch}}
+.sales-gallery{display:grid;grid-template-columns:1.2fr .8fr;gap:12px;align-items:end;justify-self:end;max-width:760px}.sales-gallery img{width:100%;display:block;object-fit:cover;background:#ddd;transition:transform .7s ease}.sales-event{aspect-ratio:2/3}.sales-presentation{aspect-ratio:3/4;max-height:520px}.sales-gallery img:hover{transform:scale(1.018)}
+@media(max-width:800px){.sales-gallery{grid-template-columns:1.15fr .85fr;gap:8px;max-width:none;justify-self:stretch}.sales-presentation{max-height:none}}
